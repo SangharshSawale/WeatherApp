@@ -26,3 +26,6 @@ Users can enter a city name in the search box, and the application fetches the l
 ### 🎯 Purpose
 
 This project was developed to practice API integration, React state management, and frontend UI development while building a real-world application.
+
+# WeatherApp
+A modern React.js weather application that fetches and displays real-time weather data using API integration with a clean, responsive user interface.
