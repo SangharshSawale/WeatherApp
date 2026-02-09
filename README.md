@@ -1,16 +1,28 @@
-# React + Vite
+🌦️ **Weather App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Weather App is a responsive web application that allows users to search for real-time weather information of any city. The application fetches live weather data using the OpenWeatherMap API and displays important weather details in a simple and user-friendly interface.
 
-Currently, two official plugins are available:
+### 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Search weather by city name
+* Displays temperature, humidity, and weather conditions
+* Real-time weather data using OpenWeatherMap API
+* Error handling for invalid city names
+* Clean and responsive user interface
+* Dynamic data update without page reload
 
-## React Compiler
+### 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6)
+* Material UI (MUI)
+* OpenWeatherMap API
+* HTML & CSS
 
-## Expanding the ESLint configuration
+### 📌 Functionality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Users can enter a city name in the search box, and the application fetches the latest weather data from the API. The app processes the response and displays the current weather details in an organized format. Proper validation and error handling ensure a smooth user experience.
+
+### 🎯 Purpose
+
+This project was developed to practice API integration, React state management, and frontend UI development while building a real-world application.
