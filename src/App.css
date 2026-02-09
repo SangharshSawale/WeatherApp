@@ -1,0 +1,108 @@
+/* ================= ROOT ================= */
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* ================= VIDEO BACKGROUND ================= */
+.videoBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* ================= MAIN CONTAINER ================= */
+.weatherContainer {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin:20px auto;
+  flex-wrap: wrap;        /* IMPORTANT for responsiveness */
+}
+
+/* ================= SEARCH BOX ================= */
+.searchbox {
+  background-color: #38acff;
+  padding: 25px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 280px;
+}
+
+/* ================= INFO BOX ================= */
+.InfoBox {
+  flex: 1;
+  min-width: 300px;
+  max-width: 450px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MUI CARD CONTROL */
+.MuiCard-root {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* ================= TABLET VIEW ================= */
+@media screen and (max-width: 768px) {
+
+  #root {
+    padding: 1.5rem;
+  }
+
+  .weatherContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .searchbox{
+    width: 70%;
+    max-width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 30%;
+    max-width: 200px;
+  }
+  .InfoBox {
+    width: 90%;
+    max-width: 500px;
+  }
+}
+
+/* ================= MOBILE VIEW ================= */
+@media screen and (max-width: 480px) {
+
+  #root {
+    padding: 1rem;
+  }
+
+  .searchbox {
+    padding: 18px;
+     width: 75%;
+     height: 30%;
+    max-width: 200px;
+     
+  }
+  .InfoBox {
+    width: 95%;
+  }
+}
