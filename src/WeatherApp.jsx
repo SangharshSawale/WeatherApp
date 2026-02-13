@@ -18,7 +18,7 @@ export default function WeatherApp(){
     }
     return(
         <>
-        <h2 style={{color:"white"}}>Weather App </h2>
+        <h1 style={{color:"white"}}>Weather App </h1>
         <div className="weatherContainer">
             <SearchBox className="searchbox" updateInfo={updateInfo}/>
             <InfoxBox className="cardsection" info={weatherInfo}/>
