@@ -1,31 +1,56 @@
-🌦️ **Weather App**
+# 🌦️ Weather App
 
-This Weather App is a responsive web application that allows users to search for real-time weather information of any city. The application fetches live weather data using the OpenWeatherMap API and displays important weather details in a simple and user-friendly interface.
+A modern **React.js Weather Application** that fetches and displays real-time weather data using API integration. The app provides a clean, responsive, and user-friendly interface to check current weather conditions for any city.
 
-### 🚀 Features
+---
 
-* Search weather by city name
-* Displays temperature, humidity, and weather conditions
-* Real-time weather data using OpenWeatherMap API
-* Error handling for invalid city names
-* Clean and responsive user interface
-* Dynamic data update without page reload
+## 📸 Preview
 
-### 🛠️ Technologies Used
+![Weather App Preview](src/assets/weather-app-preview.png)
 
-* React.js
-* JavaScript (ES6)
-* Material UI (MUI)
-* OpenWeatherMap API
-* HTML & CSS
+---
 
-### 📌 Functionality
+## 🚀 Features
 
-Users can enter a city name in the search box, and the application fetches the latest weather data from the API. The app processes the response and displays the current weather details in an organized format. Proper validation and error handling ensure a smooth user experience.
+- Search weather by city name  
+- Displays temperature, humidity, and weather conditions  
+- Real-time weather data using OpenWeatherMap API  
+- Error handling for invalid city names  
+- Clean and responsive user interface  
+- Dynamic data update without page reload  
 
-### 🎯 Purpose
+---
 
-This project was developed to practice API integration, React state management, and frontend UI development while building a real-world application.
+## 🛠️ Technologies Used
 
-# WeatherApp
-A modern React.js weather application that fetches and displays real-time weather data using API integration with a clean, responsive user interface.
+- React.js  
+- JavaScript (ES6)  
+- Material UI (MUI)  
+- OpenWeatherMap API  
+- HTML5 & CSS3  
+
+---
+
+## 📌 Functionality
+
+Users can enter a city name in the search box, and the application fetches the latest weather data from the API. The app processes the response and displays the current weather details in an organized format. Proper validation and error handling ensure a smooth and seamless user experience.
+
+---
+
+## 🎯 Purpose
+
+This project was developed to practice:
+
+- API Integration  
+- React State Management  
+- Component-based UI Design  
+- Material UI implementation  
+- Building real-world frontend applications  
+
+---
+
+## 👨‍💻 Author
+
+**Sangharsh Sawale**  
+Information Technology Student  
+D. Y. Patil College of Engineering, Akurdi
